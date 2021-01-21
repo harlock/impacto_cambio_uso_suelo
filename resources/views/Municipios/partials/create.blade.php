@@ -8,9 +8,9 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Municipio</label>
+                <label for="nom" class="text-dark float-left">Municipio*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="addname">
-                <label for="nom" class="text-dark float-left">Estado</label>
+                <label for="nom" class="text-dark float-left">Estado*</label>
                 <select v-model="addedo" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="edo in estado" v-bind:value="edo.id_estado">@{{ edo.nombre}}</option>

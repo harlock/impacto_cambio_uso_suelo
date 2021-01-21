@@ -11,16 +11,16 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label class="text-dark float-left" for="nameEdit">Colonia</label>
+                            <label class="text-dark float-left" for="nameEdit">Colonia*</label>
                             <input type="text" id="nameEdit" class="form-control" v-model="editname">
 
-                            <label class="text-dark float-left" for="nameEdit">Municipio</label>
+                            <label class="text-dark float-left" for="nameEdit">Municipio*</label>
                             <select v-model="editmun" class="form-control">
                                 <option value="" disabled>Selecione uno</option>
                                 <option v-for="mun in municipio" v-bind:value="mun.id_municipio">@{{ mun.nombre}}</option>
                             </select>
 
-                            <label class="text-dark float-left" for="nameEdit">Colonia</label>
+                            <label class="text-dark float-left" for="nameEdit">Código Postal*</label>
                             <input type="text" id="nameEdit" class="form-control" v-model="editcodigo">
                         </div>
                     </div>

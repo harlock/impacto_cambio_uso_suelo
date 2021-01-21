@@ -20,7 +20,7 @@
                 </select>
                 <div class="text-right ml-5 ">
                     <button type="button" class="btn btn-icon btn-outline-success" data-toggle="modal" data-target="#xlarge">
-                        <i class="feather icon-package"></i> Formulario
+                        <i class="feather icon-package"></i>ESCALA
                     </button>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                         })
                     }).catch(error=>{
                         Swal.fire({
-                            title: 'Error!',
+                            title: '¡Error!',
                             text: 'Debe llenar todos los campos',
                             type: 'error',
                             confirmButtonText: 'Aceptar'

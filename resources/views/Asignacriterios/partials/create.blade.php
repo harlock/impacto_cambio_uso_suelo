@@ -8,13 +8,13 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Factor</label>
+                <label for="nom" class="text-dark float-left">Factor*</label>
                 <select v-model="addname" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="fa in factor" v-bind:value="fa.id_factor">@{{ fa.nombre_factor}}</option>
                 </select>
 
-                <label for="nom" class="text-dark float-left">Criterio</label>
+                <label for="nom" class="text-dark float-left">Criterio*</label>
                 <select v-model="addcri" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="cri in criterio" v-bind:value="cri.id_criterio">@{{ cri.descripcion}}</option>

@@ -9,16 +9,16 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Colonia</label>
+                <label for="nom" class="text-dark float-left">Colonia*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="addname">
 
-                <label for="nom" class="text-dark float-left">Municipio</label>
+                <label for="nom" class="text-dark float-left">Municipio*</label>
                 <select v-model="addmun" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="mun in municipio" v-bind:value="mun.id_municipio">@{{ mun.nombre}}</option>
                 </select>
 
-                <label for="nom" class="text-dark float-left">Codigo postal</label>
+                <label for="nom" class="text-dark float-left">Código Postal*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="addcodigo">
             </div>
             <div class="modal-footer">

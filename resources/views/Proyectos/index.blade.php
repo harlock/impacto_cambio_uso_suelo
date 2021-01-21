@@ -155,7 +155,7 @@
                         title: 'Atención!',
                         text: 'Antes de agregar nuevos proyectos favor de verificar los ' +
                             'tipos de proyectos, compañias y los domicilios existentes en la seccion de catálogos. ' +
-                            'En caso de no contar con el solicitado favor de agregarlo.',
+                            'En caso de no contar con lo solicitado favor de agregarlo.',
                         type: 'info',
                         confirmButtonText: 'Aceptar'
                     });
@@ -192,7 +192,7 @@
                 delProyecto:function (){
                     Swal.fire({
                         title: '¿Está seguro que desea eliminar?',
-                        text: "No volveras a usar este dato!",
+                        text: "¡No volveras a usar este dato!",
                         type: 'warning',
                         showCancelButton: true,
                         confirmButtonColor: '#d33',
@@ -205,7 +205,7 @@
                             axios.delete(this.api + this.idproyecto).then(response => {
                                 this.getProyectos();
                                 Swal.fire({
-                                    title: 'Eliminado!',
+                                    title: '¡Eliminado!',
                                     text: 'Eliminado correctamente',
                                     type: 'success',
                                     confirmButtonColor: '#3f8a29',
@@ -213,7 +213,7 @@
                                 });
                             }).catch(error => {
                                 Swal.fire({
-                                    title: 'Error!',
+                                    title: '¡Error!',
                                     text: 'Acción no autorizada',
                                     type: 'error',
                                     confirmButtonText: 'Aceptar'
@@ -236,7 +236,7 @@
                         })
                     }).catch(error=>{
                         Swal.fire({
-                            title: 'Error!',
+                            title: '¡Error!',
                             text: 'Debe Ingresar Algún Valor',
                             type: 'error',
                             confirmButtonText: 'Aceptar'

@@ -8,7 +8,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left h5">Estado</label>
+                <label for="nom" class="text-dark float-left h5">Estado*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="addname">
             </div>
             <div class="modal-footer">

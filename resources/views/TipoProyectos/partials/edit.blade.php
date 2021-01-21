@@ -11,7 +11,7 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label class="text-dark float-left" for="nameEdit">Tipo de Proyecto</label>
+                            <label class="text-dark float-left" for="nameEdit">Tipo de Proyecto*</label>
                             <input type="text" id="nameEdit" class="form-control" v-model="editname">
                         </div>
                     </div>

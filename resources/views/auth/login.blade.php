@@ -51,7 +51,7 @@
                                                     <div class="form-control-position">
                                                         <i class="feather icon-user"></i>
                                                     </div>
-                                                    <label for="user-name">Correo Electrónico</label>
+                                                    <label for="user-name">Correo Electrónico*</label>
                                                 </fieldset>
                                                 <br><br>
                                                 <fieldset class="form-label-group position-relative has-icon-left">
@@ -64,7 +64,7 @@
                                                     <div class="form-control-position">
                                                         <i class="feather icon-lock"></i>
                                                     </div>
-                                                    <label for="user-password">Contraseña</label>
+                                                    <label for="user-password">Contraseña*</label>
                                                 </fieldset>
                                                 <br>
                                                 <div class="form-group d-flex justify-content-between align-items-center">

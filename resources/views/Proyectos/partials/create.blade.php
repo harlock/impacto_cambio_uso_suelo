@@ -8,26 +8,26 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Nombre del Proyecto</label>
+                <label for="nom" class="text-dark float-left">Nombre del Proyecto*</label>
                 <input id="nom" type="text" class="form-control text-dark text-uppercase" v-model="addname">
-                <label for="nom" class="text-dark float-left">Descripción del proyecto</label>
+                <label for="nom" class="text-dark float-left">Descripción del proyecto*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="adddes">
-                <label for="nom" class="text-dark">Compañía</label>
+                <label for="nom" class="text-dark">Compañía*</label>
                 <select v-model="addcom" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="com in companias" v-bind:value="com.id_compania">@{{ com.nombre_compania }}</option>
                 </select>
-                <label for="nom" class="text-dark">Tipo de Proyecto</label>
+                <label for="nom" class="text-dark">Tipo de Proyecto*</label>
                 <select v-model="addtip" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="tip in tipos" v-bind:value="tip.id_tipoproyecto">@{{ tip.nombre_proyecto }}</option>
                 </select>
-                <label for="nom" class="text-dark">Colonia</label>
+                <label for="nom" class="text-dark">Colonia*</label>
                 <select v-model="addcol" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="colonia in colonias" v-bind:value="colonia.id_colonia">@{{ colonia.nombre_colonia }}</option>
                 </select>
-                <label for="nom" class="text-dark">Fecha</label>
+                <label for="nom" class="text-dark">Fecha*</label>
                 <input id="fecha_registro" type="text" class="form-control text-dark pickadate" v-model="addfec">
             </div>
             <div class="modal-footer">

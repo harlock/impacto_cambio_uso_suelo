@@ -8,17 +8,17 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Nombre</label>
+                <label for="nom" class="text-dark float-left">Nombre*</label>
                 <input id="nom" type="text" class="form-control text-dark text-capitalize" v-model="addname">
-                <label for="nom" class="text-dark float-left">Primer Apellido</label>
+                <label for="nom" class="text-dark float-left">Primer Apellido*</label>
                 <input id="nom" type="text" class="form-control text-dark text-capitalize" v-model="addap">
-                <label for="nom" class="text-dark float-left">Segundo Apellido</label>
+                <label for="nom" class="text-dark float-left">Segundo Apellido*</label>
                 <input id="nom" type="text" class="form-control text-dark text-capitalize" v-model="addam">
-                <label for="nom" class="text-dark float-left">Email</label>
+                <label for="nom" class="text-dark float-left">Email*</label>
                 <input id="nom" type="email" class="form-control text-dark" v-model="addemail">
-                <label for="nom" class="text-dark float-left">Contraseña</label>
+                <label for="nom" class="text-dark float-left">Contraseña*</label>
                 <input id="nom" type="password" class="form-control text-dark" v-model="addpass">
-                <label for="nom" class="text-dark float-left">Tipo de Usuario</label>
+                <label for="nom" class="text-dark float-left">Tipo de Usuario*</label>
                 <select v-model="addtip" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="tipu in tipouser" v-bind:value="tipu.id_tipo">@{{ tipu.descripcion}}</option>

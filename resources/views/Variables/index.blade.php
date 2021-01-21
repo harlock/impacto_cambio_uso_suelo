@@ -104,7 +104,7 @@
                 delVariable:function (){
                     Swal.fire({
                         title: '¿Está seguro que desea eliminar?',
-                        text: "No volveras a usar este dato!",
+                        text: "¡No volveras a usar este dato!",
                         type: 'warning',
                         showCancelButton: true,
                         cancelButtonColor: '#160909',
@@ -117,7 +117,7 @@
                             axios.delete(this.api+this.idvariable).then(response=>{
                                 this.getVariables();
                                 Swal.fire({
-                                    title: 'Eliminado!',
+                                    title: '¡Eliminado!',
                                     text: 'Eliminado correctamente',
                                     type: 'success',
                                     confirmButtonColor: '#3f8a29',
@@ -125,7 +125,7 @@
                                 });
                             }).catch(error=>{
                                 Swal.fire({
-                                    title: 'Error!',
+                                    title: '¡Error!',
                                     text: 'Acción no autorizada',
                                     type: 'error',
                                     confirmButtonText: 'Aceptar'
@@ -147,7 +147,7 @@
                         })
                     }).catch(error=>{
                         Swal.fire({
-                            title: 'Error!',
+                            title: '¡Error!',
                             text: 'Debe Ingresar Algún Valor',
                             type: 'error',
                             confirmButtonText: 'Aceptar'

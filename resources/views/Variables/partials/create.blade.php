@@ -8,9 +8,9 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label for="nom" class="text-dark float-left">Variable</label>
+                <label for="nom" class="text-dark float-left">Variable*</label>
                 <input id="nom" type="text" class="form-control text-dark" v-model="addname">
-                <label for="nom" class="text-dark float-left">Subsistema</label>
+                <label for="nom" class="text-dark float-left">Subsistema*</label>
                 <select v-model="addsub" class="form-control">
                     <option value="" disabled>Selecione uno</option>
                     <option v-for="sub in subsistema" v-bind:value="sub.id_subsistema">@{{ sub.nombre_subsistema}}</option>

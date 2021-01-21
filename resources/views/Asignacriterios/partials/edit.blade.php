@@ -11,13 +11,13 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label class="text-dark float-left" for="nameEdit">Factor</label>
+                            <label class="text-dark float-left" for="nameEdit">Factor*</label>
                             <select v-model="editname" class="form-control">
                                 <option value="" disabled>Selecione uno</option>
                                 <option v-for="fa in factor" v-bind:value="fa.id_factor">@{{ fa.nombre_factor}}</option>
                             </select>
 
-                            <label class="text-dark float-left" for="nameEdit">Criterio</label>
+                            <label class="text-dark float-left" for="nameEdit">Criterio*</label>
                             <select v-model="editcri" class="form-control">
                                 <option value="" disabled>Selecione uno</option>
                                 <option v-for="cri in criterio" v-bind:value="cri.id_criterio">@{{ cri.descripcion}}</option>

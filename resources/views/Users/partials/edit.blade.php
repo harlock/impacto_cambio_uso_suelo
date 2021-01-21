@@ -11,15 +11,15 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label for="nom" class="text-dark float-left">Nombre</label>
+                            <label for="nom" class="text-dark float-left">Nombre*</label>
                             <input id="nom" type="text" class="form-control text-dark" v-model="editname">
-                            <label for="nom" class="text-dark float-left">Primer Apellido</label>
+                            <label for="nom" class="text-dark float-left">Primer Apellido*</label>
                             <input id="nom" type="text" class="form-control text-dark" v-model="editap">
-                            <label for="nom" class="text-dark float-left">Segundo Apellido</label>
+                            <label for="nom" class="text-dark float-left">Segundo Apellido*</label>
                             <input id="nom" type="text" class="form-control text-dark" v-model="editam">
-                            <label for="nom" class="text-dark float-left">Email</label>
+                            <label for="nom" class="text-dark float-left">Email*</label>
                             <input id="nom" type="text" class="form-control text-dark" v-model="editemail">
-                            <label for="nom" class="text-dark float-left">Tipo de Usuario</label>
+                            <label for="nom" class="text-dark float-left">Tipo de Usuario*</label>
                             <select v-model="edittip" class="form-control">
                                 <option disabled>Selecione uno</option>
                                 <option v-for="tipu in tipouser" v-bind:value="tipu.id_tipo">@{{ tipu.descripcion}}</option>

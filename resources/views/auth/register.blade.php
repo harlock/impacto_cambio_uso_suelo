@@ -49,17 +49,17 @@
                                                             <strong>{{ $message }}</strong>
                                                         </span>
                                                     @enderror
-                                                    <label for="inputName">Nombre</label>
+                                                    <label for="inputName">Nombre*</label>
                                                 </div>
 
                                                 <div class="form-label-group">
                                                     <input id="apusuario" type="text" name="apusuario" class="form-control text-capitalize" required autocomplete="apusuario" autofocus>
-                                                    <label for="inputName">Primer apellido</label>
+                                                    <label for="inputName">Primer apellido*</label>
                                                 </div>
 
                                                 <div class="form-label-group">
                                                     <input id="amusuario" type="text" name="amusuario" class="form-control text-capitalize" required autocomplete="amusuario" autofocus>
-                                                    <label for="inputName">Segundo apellido</label>
+                                                    <label for="inputName">Segundo apellido*</label>
                                                 </div>
 
                                                 <div class="form-label-group">
@@ -69,7 +69,7 @@
                                                             <strong>{{ $message }}</strong>
                                                         </span>
                                                     @enderror
-                                                    <label for="inputEmail">Correo Electrónico</label>
+                                                    <label for="inputEmail">Correo Electrónico*</label>
                                                 </div>
 
                                                 <div class="form-label-group">
@@ -79,12 +79,12 @@
                                                             <strong>{{ $message }}</strong>
                                                         </span>
                                                     @enderror
-                                                    <label for="inputPassword">Contraseña</label>
+                                                    <label for="inputPassword">Contraseña*</label>
                                                 </div>
 
                                                 <div class="form-label-group">
                                                     <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                                                    <label for="inputConfPassword">Confirmar contraseña</label>
+                                                    <label for="inputConfPassword">Confirmar contraseña*</label>
                                                 </div>
 
                                                 <div class="form-group{{ $errors->has('g-recaptcha-response') ? 'has-error':''}}">

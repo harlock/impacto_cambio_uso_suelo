@@ -11,10 +11,10 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label class="text-dark float-left" for="nameEdit">Factor</label>
+                            <label class="text-dark float-left" for="nameEdit">Factor*</label>
                             <input type="text" id="nameEdit" class="form-control" v-model="editname">
 
-                            <label class="text-dark float-left" for="nameEdit">Variable</label>
+                            <label class="text-dark float-left" for="nameEdit">Variable*</label>
                             <select v-model="editvar" class="form-control">
                                 <option value="" disabled>Selecione uno</option>
                                 <option v-for="vari in variable" v-bind:value="vari.id_variable">@{{ vari.nombre_variable}}</option>

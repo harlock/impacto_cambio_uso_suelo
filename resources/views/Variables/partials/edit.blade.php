@@ -11,10 +11,10 @@
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="form-group mb-3">
-                            <label class="text-dark float-left" for="nameEdit">Variable</label>
+                            <label class="text-dark float-left" for="nameEdit">Variable*</label>
                             <input type="text" id="nameEdit" class="form-control" v-model="editname">
 
-                            <label class="text-dark float-left" for="nameEdit">Subsistema</label>
+                            <label class="text-dark float-left" for="nameEdit">Subsistema*</label>
                             <select v-model="editsub" class="form-control">
                                 <option value="" disabled>Selecione uno</option>
                                 <option v-for="sub in subsistema" v-bind:value="sub.id_subsistema">@{{ sub.nombre_subsistema}}</option>
